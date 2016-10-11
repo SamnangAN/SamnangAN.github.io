@@ -12,6 +12,8 @@
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	overflow-x: hidden;
+	overflow-y: auto;
 	
 }
 #home-content-bg{
@@ -165,6 +167,6 @@
 		width:90%
 	}
 	#social img{
-		width:1%;
+		width:10%;
 	}
 }
