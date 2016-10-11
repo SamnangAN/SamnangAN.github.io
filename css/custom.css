@@ -5,10 +5,13 @@
 #home{
 	background-image:url('../image/street.jpg');
 	height:660px;
-	background-attachment: fixed;
-	background-position:center;
-	background-repeat:no-repeat;
-	background-size:cover;
+	background-attachment: fixed !important;
+	background-position:center !important;
+	background-repeat:no-repeat !important;
+	background-size:cover !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	
 }
 #home-content-bg{
@@ -82,8 +85,8 @@
 #second-part{
 	padding:10px;
 	background-image:url("../image/seigaiha.png");
-	background-attachment: fixed;
-	background-repeat:repeat;
+	background-attachment: fixed !important;
+	background-repeat:repeat !important;
 }
 #profile{
 	font-family: 'Comfortaa', cursive;
@@ -162,6 +165,6 @@
 		width:90%
 	}
 	#social img{
-		width:10%;
+		width:1%;
 	}
 }
