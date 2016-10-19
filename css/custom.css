@@ -15,7 +15,7 @@
 	
 }
 #home-content-bg{
-	background-color:GRAY;
+	background-color:rgba(190,190,190,0.8);
 	margin: 0 auto;
 	width:50%;
 	height:40%;
@@ -68,6 +68,12 @@
   margin-bottom:20px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+}
+
+#blockquote:hover{
+	font-size:1.4em;
 }
 
 #blockquote:before {
@@ -131,13 +137,27 @@
 }
 
 #social-content{
-	padding-bottom:5%;
+	padding-bottom:3%;
 }
 
 #social{
 	margin:0 auto;
 	text-align:center;
 }
+#social img{
+	width:3%;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {dispay:block;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {display:block;}
+}
+
 
 @media screen and (max-width: 990px){
 	#profileInfo{
